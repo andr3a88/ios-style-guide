@@ -2,17 +2,20 @@
 
 My code convention for Objective-C and Swift inspired by Sources(#sources)
 
+## Sources
+This guide has been built taking inspiration from the following sources:
+
+### Objective-C
+* [GitHub](https://github.com/github/objective-c-style-guide)
+* [New York Times](https://github.com/NYTimes/objective-c-style-guide) 
+* [Raywenderlich](https://github.com/raywenderlich/objective-c-style-guide) 
+
+
 ## Table of Contents
 
 * [Code Organization](#code-organization)
 * [Spacing](#spacing)
 
-## Sources
-This guide has been built taking inspiration from the following sources:
-
-* [GitHub](https://github.com/github/objective-c-style-guide)
-* [New York Times](https://github.com/NYTimes/objective-c-style-guide) 
-* [Raywenderlich](https://github.com/raywenderlich/objective-c-style-guide) 
 
 
 ## Code Organization
