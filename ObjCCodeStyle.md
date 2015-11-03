@@ -1,14 +1,12 @@
-# Objective-C and Swift Coding Style
+# Objective-C Coding Style
 
-My code convention for Objective-C and Swift inspired by Sources(#Sources)
+My code convention for Objective-C inspired by Sources(#Sources)
 
-## Table of Contents - Objective-C
+## Table of Contents
 
 * [Code Organization](#code-organization)
 * [Spacing](#spacing)
 * [Sources](#sources)
-
-
 
 ## Code Organization
 
@@ -72,5 +70,3 @@ This guide has been built taking inspiration from the following sources:
 * [New York Times](https://github.com/NYTimes/objective-c-style-guide) 
 * [Raywenderlich](https://github.com/raywenderlich/objective-c-style-guide) 
 
-#### Swift
-* [GitHub](https://github.com/github/swift-style-guide)
