@@ -1,6 +1,6 @@
 # Objective-C Coding Style
 
-My code convention for Objective-C inspired by [Sources](#Sources)
+My code convention for Objective-C inspired by [Sources](#sources)
 
 ## Table of Contents
 
