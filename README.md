@@ -2,22 +2,11 @@
 
 My code convention for Objective-C and Swift inspired by Sources(#Sources)
 
-## Sources
-This guide has been built taking inspiration from the following sources:
-
-#### Objective-C
-* [GitHub](https://github.com/github/objective-c-style-guide)
-* [New York Times](https://github.com/NYTimes/objective-c-style-guide) 
-* [Raywenderlich](https://github.com/raywenderlich/objective-c-style-guide) 
-
-#### Swift
-* [GitHub](https://github.com/github/swift-style-guide)
-
-
 ## Table of Contents
 
 * [Code Organization](#code-organization)
 * [Spacing](#spacing)
+* [Sources](#sources)
 
 
 
@@ -73,3 +62,15 @@ else {
 * There should be exactly one blank line between methods to aid in visual clarity and organization.
 * Whitespace within methods should be used to separate functionality (though often this can indicate an opportunity to split the method into several, smaller methods). In methods with long or verbose names, a single line of whitespace may be used to provide visual separation before the method’s body.
 * `@synthesize` and `@dynamic` should each be declared on new lines in the implementation.
+
+
+## Sources
+This guide has been built taking inspiration from the following sources:
+
+#### Objective-C
+* [GitHub](https://github.com/github/objective-c-style-guide)
+* [New York Times](https://github.com/NYTimes/objective-c-style-guide) 
+* [Raywenderlich](https://github.com/raywenderlich/objective-c-style-guide) 
+
+#### Swift
+* [GitHub](https://github.com/github/swift-style-guide)
