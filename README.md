@@ -1,6 +1,6 @@
 # Objective-C and Swift Coding Style
 
-My code convention for Objective-C and Swift inspired by Sources(#sources)
+My code convention for Objective-C and Swift inspired by Sources(#Sources)
 
 ## Sources
 This guide has been built taking inspiration from the following sources:
