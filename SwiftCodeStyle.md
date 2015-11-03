@@ -1,6 +1,6 @@
 # Swift Coding Style
 
-My code convention for Swift inspired by Sources(#Sources)
+My code convention for Swift inspired by [Sources](#sources)
 
 ## Table of Contents
 
