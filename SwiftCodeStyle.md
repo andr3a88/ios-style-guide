@@ -64,6 +64,4 @@ else {
 
 ## Sources
 This guide has been built taking inspiration from the following sources:
-
-#### Swift
 * [GitHub](https://github.com/github/swift-style-guide)
