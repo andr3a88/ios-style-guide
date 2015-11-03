@@ -67,7 +67,7 @@ end
 
 ### Common Issue
 
-* Ovverrides FRAMEWORK_SEARCH_PATHS
+#### Ovverrides FRAMEWORK_SEARCH_PATHS
 ```
  [!] The `AppTests [Debug]` target overrides the `FRAMEWORK_SEARCH_PATHS` build setting defined in `Pods/Target Support Files/Pods-SlhashTests/Pods-SlhashTests.debug.xcconfig'. This can lead to problems with the CocoaPods installation
     - Use the `$(inherited)` flag, or
@@ -76,7 +76,7 @@ end
 
 **Solution:** a `“$(inherited)”` to _FRAMEWORK_SEARCH_PATHS_ (App target => Build Settings Tab => Search for “Framework Search Path”
 
-* undefined symbols for architecture arm64
+#### undefined symbols for architecture arm64
 
 After `pod update` undefined symbols for architecture arm64
 
