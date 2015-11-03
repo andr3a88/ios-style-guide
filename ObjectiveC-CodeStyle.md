@@ -1,6 +1,6 @@
 # Objective-C Coding Style
 
-My code convention for Objective-C inspired by Sources(#Sources)
+My code convention for Objective-C inspired by [Sources](#Sources)
 
 ## Table of Contents
 
@@ -65,7 +65,6 @@ else {
 ## Sources
 This guide has been built taking inspiration from the following sources:
 
-#### Objective-C
 * [GitHub](https://github.com/github/objective-c-style-guide)
 * [New York Times](https://github.com/NYTimes/objective-c-style-guide) 
 * [Raywenderlich](https://github.com/raywenderlich/objective-c-style-guide) 
