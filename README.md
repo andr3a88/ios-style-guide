@@ -5,10 +5,13 @@ My code convention for Objective-C and Swift inspired by Sources(#sources)
 ## Sources
 This guide has been built taking inspiration from the following sources:
 
-### Objective-C
+#### Objective-C
 * [GitHub](https://github.com/github/objective-c-style-guide)
 * [New York Times](https://github.com/NYTimes/objective-c-style-guide) 
 * [Raywenderlich](https://github.com/raywenderlich/objective-c-style-guide) 
+
+#### Swift
+* [GitHub](https://github.com/github/swift-style-guide)
 
 
 ## Table of Contents
@@ -20,13 +23,12 @@ This guide has been built taking inspiration from the following sources:
 
 ## Code Organization
 
-Use `#pragma mark -` to categorize methods in functional groupings and protocol/delegate implementations following this general structure.
+Use `#pragma mark -` to categorize methods in functional groupings.
 
 ```objc
 #pragma mark - Lifecycle
 
 - (instancetype)init {}
-- (void)dealloc {}
 - (void)viewDidLoad {}
 - (void)viewWillAppear:(BOOL)animated {}
 - (void)didReceiveMemoryWarning {}
@@ -35,10 +37,6 @@ Use `#pragma mark -` to categorize methods in functional groupings and protocol/
 
 - (void)setCustomProperty:(id)value {}
 - (id)customProperty {}
-
-#pragma mark - IBActions
-
-- (IBAction)submitData:(id)sender {}
 
 #pragma mark - Public
 
@@ -53,36 +51,25 @@ Use `#pragma mark -` to categorize methods in functional groupings and protocol/
 #pragma mark - UITableViewDataSource
 #pragma mark - UITableViewDelegate
 
-#pragma mark - NSCopying
+#pragma mark - IBActions
 
-- (id)copyWithZone:(NSZone *)zone {}
-
-#pragma mark - NSObject
-
-- (NSString *)description {}
+- (IBAction)submitData:(id)sender {}
 ```
 
 ## Spacing
 
-* Indent using 2 spaces (this conserves space in print and makes line wrapping less likely). Never indent with tabs. Be sure to set this preference in Xcode.
+* Indent using tabs. Be sure to set this preference in Xcode.
 * Method braces and other braces (`if`/`else`/`switch`/`while` etc.) always open on the same line as the statement but close on a new line.
 
-**Preferred:**
+**For example:**
 ```objc
-if (user.isHappy) {
-  //Do something
-} else {
-  //Do something else
-}
-```
-
-**Not Preferred:**
-```objc
-if (user.isHappy)
-{
-    //Do something
+if(user.isHappy) {
+    // Do something
 }
 else {
-    //Do something else
+    // Do something else
 }
 ```
+* There should be exactly one blank line between methods to aid in visual clarity and organization.
+* Whitespace within methods should be used to separate functionality (though often this can indicate an opportunity to split the method into several, smaller methods). In methods with long or verbose names, a single line of whitespace may be used to provide visual separation before the method’s body.
+* `@synthesize` and `@dynamic` should each be declared on new lines in the implementation.
