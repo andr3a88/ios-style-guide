@@ -4,11 +4,9 @@ A list of useful pod and common issue with Cocoapods
 
 ## Pod list
 
-* [Code Organization](#code-organization)
-* [Spacing](#spacing)
-* [Sources](#sources)
-
-
+* [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet) [Obj-C]
+* [Mantle](https://github.com/Mantle/Mantle) [Obj-C]
+* [Realm](https://github.com/realm/realm-cocoa) [Obj-C, Swift]
 
 ## Issue
 
@@ -19,4 +17,4 @@ A list of useful pod and common issue with Cocoapods
     - Remove the build settings from the target.
 ```
 
-*Solution:* a _“$(inherited)”_ to _FRAMEWORK_SEARCH_PATHS_ (App target => Build Settings Tab => Search for “Framework Search Path”
+**Solution:** a _“$(inherited)”_ to _FRAMEWORK_SEARCH_PATHS_ (App target => Build Settings Tab => Search for “Framework Search Path”
