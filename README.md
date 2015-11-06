@@ -1,8 +1,11 @@
-# This Repo
+# Work better with iOS
+
 A list of resources and tips for programming efficiently, especially for Objecitve-C and Swift
 
-## Table of Contents
+## Resources
 
 * [Xcode Workflow and OSX apps](XcodeWorkflow.md)
-* [SwiftCodeStyle](SwiftCodeStyle.md)
-* [ObjectiveC-CodeStyle](ObjectiveC-CodeStyle.md)
+* [Swift Code Style](SwiftCodeStyle.md)
+* [ObjectiveC Code Style](ObjectiveC-CodeStyle.md)
+* [Cocoapods](Cocoapods.md)
+* [Clean Code](CleanCode.md)
