@@ -5,7 +5,7 @@
 ### Best Practices
 * It's not necessary to save objects that are part of a relationship. Save only the root object.
 
-```
+```Swift
 //Creation
 let user = User()
 let item = Item()
