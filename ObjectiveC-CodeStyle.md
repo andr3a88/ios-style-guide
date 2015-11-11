@@ -13,6 +13,7 @@ My code convention for Objective-C inspired by [Sources](#sources)
 * [Naming](#naming)
 * [Comments](#comments)
 * [Constants](#constants)
+* [Singletons](#singletons)
 * [Sources](#sources)
 
 ## Code Organization
@@ -129,6 +130,24 @@ TO-DO
 ## Constants
 
 TO-DO
+
+## Singletons
+
+Singleton objects should use a thread-safe pattern for creating their shared instance.
+
+```objc
++ (instancetype)sharedInstance 
+{
+   static id sharedInstance = nil;
+
+   static dispatch_once_t onceToken;
+   dispatch_once(&onceToken, ^{
+      sharedInstance = [[self alloc] init];
+   });
+
+   return sharedInstance;
+}
+```
 
 ## Sources
 This guide has been built taking inspiration from the following sources:
