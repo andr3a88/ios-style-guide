@@ -6,6 +6,7 @@ My code convention for Objective-C inspired by [Sources](#sources)
 
 * [Code Organization](#code-organization)
 * [Spacing](#spacing)
+* [Conditionals](#conditionals)
 * [Sources](#sources)
 
 ## Code Organization
@@ -61,11 +62,29 @@ else {
 * Whitespace within methods should be used to separate functionality (though often this can indicate an opportunity to split the method into several, smaller methods). In methods with long or verbose names, a single line of whitespace may be used to provide visual separation before the method’s body.
 * `@synthesize` and `@dynamic` should each be declared on new lines in the implementation.
 
+## Conditionals
+
+Ok: 
+```objc
+if (!error) {
+    return success;
+}
+```
+Not:
+```objc
+if (!error)
+    return success;
+```
+or:
+```objc
+if (!error) return success;
+```
 
 ## Sources
 This guide has been built taking inspiration from the following sources:
 
 * [GitHub](https://github.com/github/objective-c-style-guide)
+* [Realm-Cocoa)(https://github.com/realm/realm-cocoa/wiki/Objective-C-Style-Guide)
 * [New York Times](https://github.com/NYTimes/objective-c-style-guide) 
 * [Raywenderlich](https://github.com/raywenderlich/objective-c-style-guide) 
 
