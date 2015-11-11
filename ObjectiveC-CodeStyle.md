@@ -7,6 +7,9 @@ My code convention for Objective-C inspired by [Sources](#sources)
 * [Code Organization](#code-organization)
 * [Spacing](#spacing)
 * [Conditionals](#conditionals)
+* [Ternary Operator](#ternary-operator)
+* [Methods](#methods)
+* [Variables](#variables)
 * [Sources](#sources)
 
 ## Code Organization
@@ -64,21 +67,53 @@ else {
 
 ## Conditionals
 
-Ok: 
+**For example:**
 ```objc
 if (!error) {
     return success;
 }
 ```
-Not:
+**Not:**
 ```objc
 if (!error)
     return success;
 ```
-or:
+**or:**
 ```objc
 if (!error) return success;
 ```
+## Ternary Operator
+The Ternary operator, **?** , should only be used when it increases clarity or code neatness, only with a single condition.
+
+**For example:** 
+```objc
+result = a > b ? x : y;
+```
+**Not:**
+```objc
+result = a > b ? x = c > d ? c : d : y;
+```
+
+## Methods
+
+In method signatures, there should be a space after the scope (-/+ symbol). There should be a space between the method segments.
+
+**For example:** 
+```objc
+- (void)setExampleText:(NSString *)text image:(UIImage *)image;
+```
+The beginning bracket should be in the same line of the method signature
+
+**For example:** 
+```objc
+- (void)setExampleText:(NSString *)text image:(UIImage *)image {    
+    // Code...
+}
+```
+
+## Variables
+
+TO-DO
 
 ## Sources
 This guide has been built taking inspiration from the following sources:
@@ -86,5 +121,4 @@ This guide has been built taking inspiration from the following sources:
 * [GitHub](https://github.com/github/objective-c-style-guide)
 * [Realm-Cocoa)(https://github.com/realm/realm-cocoa/wiki/Objective-C-Style-Guide)
 * [New York Times](https://github.com/NYTimes/objective-c-style-guide) 
-* [Raywenderlich](https://github.com/raywenderlich/objective-c-style-guide) 
-
+* [Raywenderlich](https://github.com/raywenderlich/objective-c-style-guide)
