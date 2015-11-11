@@ -10,6 +10,9 @@ My code convention for Objective-C inspired by [Sources](#sources)
 * [Ternary Operator](#ternary-operator)
 * [Methods](#methods)
 * [Variables](#variables)
+* [Naming](#naming)
+* [Comments](#comments)
+* [Constants](#constants)
 * [Sources](#sources)
 
 ## Code Organization
@@ -112,6 +115,18 @@ The beginning bracket should be in the same line of the method signature
 ```
 
 ## Variables
+
+TO-DO
+
+## Naming
+
+TO-DO
+
+## Comments
+
+TO-DO
+
+## Constants
 
 TO-DO
 
