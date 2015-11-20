@@ -17,4 +17,4 @@ a list of utility apps that i durent my daily work:
 * Sip
 * RealmBrowser
 * Postman
-* Custom placeholder image Placehold(http://placehold.it/)
+* Custom placeholder image [Placehold.it](http://placehold.it/)
