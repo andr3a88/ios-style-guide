@@ -6,7 +6,7 @@
 
 #### Plugins
 
-## OSX best utility apps
+## OSX Apps and Resource
 
 a list of utility apps that i durent my daily work:
 
@@ -17,3 +17,4 @@ a list of utility apps that i durent my daily work:
 * Sip
 * RealmBrowser
 * Postman
+* Custom placeholder image Placehold(http://placehold.it/)
