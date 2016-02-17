@@ -80,6 +80,12 @@ target 'AppTargetTests' do
 end
 ```
 
+### Create a Pod
+
+```
+pod lib create PodName
+```
+
 ### Common Issue
 
 #### Ovverrides FRAMEWORK_SEARCH_PATHS
