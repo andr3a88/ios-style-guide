@@ -2,12 +2,27 @@
 
 A list of useful pod and common issue with Cocoapods
 
-### Pod list
+##### Model - Database
 
-* [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet) [Obj-C]
 * [Mantle](https://github.com/Mantle/Mantle) [Obj-C]
-* [Realm](https://github.com/realm/realm-cocoa) [Obj-C, Swift]
+* [Realm](https://github.com/realm/realm-cocoa) [Obj-C, Swift, Java]
+ 
+##### Networking
 * [AFNetworking](https://github.com/realm/realm-cocoa) [Obj-C]
+* [Alamofire](https://github.com/Alamofire/Alamofire) [Swift]
+* [AlamofireImage](https://github.com/Alamofire/AlamofireImage) [Swift]
+
+##### Menu - PagedView - TableView 
+* [SWRevealViewController](https://github.com/John-Lluch/SWRevealViewController) [Obj-C]
+* [RESideMenu](https://github.com/romaonthego/RESideMenu) [Obj-C]
+* [PagingMenuController](https://github.com/kitasuke/PagingMenuController) [Swift]
+* [DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet) [Obj-C]
+* [SWTableViewCell](https://github.com/CEWendel/SWTableViewCell) [Obj-C]
+
+##### Form & Charts 
+* [XLForm](https://github.com/xmartlabs/XLForm) [Obj-C]
+* [Eureka](https://github.com/xmartlabs/Eureka) (XLForm Swift Version) [Swift]
+* [iOS-Charts](https://github.com/danielgindi/ios-charts) Port of MPAndroidChart [Swift]
 
 ### Podfile example
 
