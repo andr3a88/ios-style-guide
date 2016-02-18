@@ -24,7 +24,7 @@ A list of useful pod and common issue with Cocoapods
 * [Eureka](https://github.com/xmartlabs/Eureka) (XLForm Swift Version) [Swift]
 * [iOS-Charts](https://github.com/danielgindi/ios-charts) Port of MPAndroidChart [Swift]
 
-### Podfile example
+## Podfile example
 
 ```
 # Pod configuration
@@ -80,13 +80,37 @@ target 'AppTargetTests' do
 end
 ```
 
-### Create a Pod
+## Create a Pod
+Run  ```pod lib create PodName``` command to create the default template for a Pod. The setup process ask some question about the pod configuration. For more information  [Getting started](https://guides.cocoapods.org/making/using-pod-lib-create).
+
+To learn more about the template see [Pod Template](https://github.com/CocoaPods/pod-template.git) .
+To learn more about creating a new pod, see [Making a Cocoapods](http://guides.cocoapods.org/making/making-a-cocoapod).
+
+#### The Podspec
+A Podspec, or Spec, describes a version of a Pod library. One Pod, over the course of time, will have many Specs. It includes details about where the source should be fetched from, what files to use, the build settings to apply, and other general metadata such as its name, version, and description.
+
+* [Podspec Syntax Reference](https://guides.cocoapods.org/syntax/podspec.html)
+
+After the Podspec creation run ```pod spec lint``` to check configuration errors:
+
+
+#### Release and update a Pod
+Once you have a release ready you'll need to make the corresponding tag. First run a quick ```pod lib lint``` then create your tag and push it.
 
 ```
-pod lib create PodName
-```
+$ cd ~/code/Pods/NAME
+$ edit NAME.podspec
+# set the new version to 0.0.1
+# set the new tag to 0.0.1
+$ pod lib lint
 
-### Common Issue
+$ git add -A && git commit -m "Release 0.0.1."
+$ git tag '0.0.1'
+$ git push --tags
+``` 
+
+## Common Cocoapods Issue
+A list of common issue 
 
 #### Ovverrides FRAMEWORK_SEARCH_PATHS
 ```
