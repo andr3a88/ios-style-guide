@@ -95,6 +95,25 @@ After the Podspec creation run ```pod spec lint``` to check configuration errors
 
 
 #### Release and update a Pod
+
+First of all, you have to register your device to **pod trunk** with this command:
+
+ ```
+pod trunk register mario.red@cocoapods.org 'Mario Red' --description='macbook air'
+  ```
+  
+ Then validate your pod with:
+ 
+  ```
+ pod lib lint NAME.podspec
+  ```
+ Now send you pod to Cocoapods:
+ 
+ ```
+ pod trunk push NAME.podspec
+ ```
+
+
 Once you have a release ready you'll need to make the corresponding tag. First run a quick ```pod lib lint``` then create your tag and push it.
 
 ```
