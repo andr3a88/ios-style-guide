@@ -1,5 +1,19 @@
 # Cocoapods
 
+### Installation
+
+Last version
+```
+sudo gem install cocoapods -n/usr/local/bin
+```
+
+Pre release version
+```
+sudo gem install cocoapods --pre -n/usr/local/bin
+```
+
+### Best Pods
+
 A list of useful pod and common issue with Cocoapods
 
 ##### Model - Database
