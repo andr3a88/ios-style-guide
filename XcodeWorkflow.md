@@ -2,7 +2,7 @@
 
 #### Class Template
 
-[Download]()
+[Download](/resource)
 
 #### Code Snippets
 
