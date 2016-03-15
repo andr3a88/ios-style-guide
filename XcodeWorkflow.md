@@ -2,13 +2,13 @@
 
 #### Class Template
 
-[Download](/resource)
+[Download](/resources/ASCodeSnippets.zip)
 
 #### Code Snippets
 
 Path: /Library/Developer/Xcode/UserData/CodeSnippets
 
-[Download]()
+[Download](/resources/ASCodeSnippets.zip)
 
 #### Plugins
 
@@ -35,11 +35,11 @@ Path /Library/Application Support/Developer/Shared/Xcode/Plug-ins
 * ColorSenseRainbow
 * Alcatraz
 
-[Download]()
+[Download](/resourcesASPlug-ins-XC7.2.zip)
 
 ## OSX Apps and Resource
 
-a list of utility apps that i durent my daily work:
+a list of utility apps:
 
 * Simpholders
 * Mou
