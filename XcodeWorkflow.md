@@ -18,3 +18,4 @@ a list of utility apps that i durent my daily work:
 * RealmBrowser
 * Postman
 * Custom placeholder image [Placehold.it](http://placehold.it/)
+* Paw (Http client for Mac) [https://luckymarmot.com/paw](https://luckymarmot.com/paw)
