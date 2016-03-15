@@ -96,6 +96,21 @@ After the Podspec creation run ```pod spec lint``` to check configuration errors
 
 #### Release and update a Pod
 
+Once you have a release ready you'll need to make the corresponding tag. First run a quick ```pod lib lint``` then create your tag and push it.
+
+```
+$ cd ~/code/Pods/NAME
+$ edit NAME.podspec
+# set the new version to 0.0.1
+# set the new tag to 0.0.1
+$ pod lib lint
+
+$ git add -A && git commit -m "Release 0.0.1."
+$ git tag '0.0.1'
+$ git push --tags
+``` 
+
+
 First of all, you have to register your device to **pod trunk** with this command:
 
  ```
@@ -112,22 +127,8 @@ pod trunk register mario.red@cocoapods.org 'Mario Red' --description='macbook ai
  ```
  pod trunk push NAME.podspec
  ```
-
-
-Once you have a release ready you'll need to make the corresponding tag. First run a quick ```pod lib lint``` then create your tag and push it.
-
-```
-$ cd ~/code/Pods/NAME
-$ edit NAME.podspec
-# set the new version to 0.0.1
-# set the new tag to 0.0.1
-$ pod lib lint
-
-$ git add -A && git commit -m "Release 0.0.1."
-$ git tag '0.0.1'
-$ git push --tags
-``` 
-
+ 
+ 
 ## Common Cocoapods Issue
 A list of common issue 
 
