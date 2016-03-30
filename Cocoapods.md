@@ -38,6 +38,10 @@ A list of useful pod and common issue with Cocoapods
 * [Eureka](https://github.com/xmartlabs/Eureka) (XLForm Swift Version) [Swift]
 * [iOS-Charts](https://github.com/danielgindi/ios-charts) Port of MPAndroidChart [Swift]
 
+#### Logger
+* [SwiftyBeaver](https://github.com/SwiftyBeaver/SwiftyBeaver) SwiftyBeaver [Swift]
+
+
 ## Podfile example
 
 ```
