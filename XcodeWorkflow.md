@@ -35,7 +35,7 @@ Path /Library/Application Support/Developer/Shared/Xcode/Plug-ins
 * ColorSenseRainbow
 * Alcatraz
 
-[Xcode 7.3 Plugins](./Resources/ASPlug-ins-XC7.3.zip)
+[Xcode 7.3 Plugins](./Resources/Plug-ins-XC7.3.zip)
 
 ## OSX Apps and Resource
 
