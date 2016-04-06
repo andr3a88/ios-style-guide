@@ -2,7 +2,7 @@
 
 #### Class Template
 
-[Download](./Resources/ASTemplates.zip)
+[Download](./Resources/Templates.zip)
 
 #### Code Snippets
 
