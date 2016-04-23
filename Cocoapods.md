@@ -150,7 +150,7 @@ pod trunk register mario.red@cocoapods.org 'Mario Red' --description='macbook ai
 ## Common Cocoapods Issue
 A list of common issue 
 
-#### Ovverrides FRAMEWORK_SEARCH_PATHS
+#### Overrides FRAMEWORK_SEARCH_PATHS
 ```
  [!] The `AppTests [Debug]` target overrides the `FRAMEWORK_SEARCH_PATHS` build setting defined in `Pods/Target Support Files/Pods-SlhashTests/Pods-SlhashTests.debug.xcconfig'. This can lead to problems with the CocoaPods installation
     - Use the `$(inherited)` flag, or
@@ -164,5 +164,16 @@ A list of common issue
 After `pod update` undefined symbols for architecture arm64
 
 **Solution**: Adding `$(OTHER_LDFLAGS)` to the App target under  _"Other Linker Flags"_ got me through this
+
+#### Overrides EMBEDDED_CONTENT_CONTAINS_SWIFT
+```
+[!] The `App [Debug]` target overrides the `EMBEDDED_CONTENT_CONTAINS_SWIFT` build setting defined in `Pods/Target Support Files/Pods-App-Quotes.debug.xcconfig'. This can lead to problems with the CocoaPods installation
+    - Use the `$(inherited)` flag, or
+    - Remove the build settings from the target.
+```
+
+**Solution:** Search for `“EMBEDDED_CONTENT_CONTAINS_SWIFT` on App build settings. Press the delete key on the item. (the item will change from bold to regular text)
+
+
 
 
