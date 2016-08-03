@@ -6,6 +6,7 @@ A list of resources and tips for programming efficiently, especially for Objecti
 
 1. [Xcode Workflow and OSX apps](XcodeWorkflow.md)
 * [Swift Code Style](SwiftCodeStyle.md)
+* [SwiftLint](SwiftLint.md)
 * [ObjectiveC Code Style](ObjectiveC-CodeStyle.md)
 * [Cocoapods](Cocoapods.md)
 * [Clean Code](CleanCode.md)
