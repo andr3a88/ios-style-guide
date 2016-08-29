@@ -30,6 +30,58 @@ Available commands:
    version      Display the current version of SwiftLint
 
 ```
+### Configuration File Example (.swiftlint.yml)
+
+```
+disabled_rules: # rule identifiers to exclude from running
+  - colon
+  - conditional_binding_cascade
+  - comma
+  - control_statement
+  - force_cast
+  - legacy_constant
+  - legacy_constructor
+  - line_length
+  - nesting
+  - todo
+  - trailing_whitespace
+  - type_name
+  - variable_name
+  - cyclomatic_complexity
+
+opt_in_rules: # some rules are only opt-in
+  #- empty_count
+  #- missing_docs
+  # Find all the available rules by running:
+  # swiftlint rules
+
+included: # paths to include during linting. `--path` is ignored if present.
+  #- Folder
+  #- ../Folder/Pod
+
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Carthage
+  - Pods
+
+# These properties are marked as error by default.
+force_try: warning
+
+file_length:
+  warning: 550
+  error: 1200
+  
+function_body_length:
+  warning: 150
+  error: 200
+  
+type_body_length:
+  warning: 300
+  error: 1000
+  
+function_parameter_count:
+  warning: 10
+  error: 15
+```
 
 ### Repository
 * [SwiftLint Github](https://github.com/realm/SwiftLint) 
