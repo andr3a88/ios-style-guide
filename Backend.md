@@ -1,22 +1,22 @@
 
 # Backend
 
-* [NodeJS](#NodeJS)
-* [ MongoDB](# MongoDB)
+* [NodeJS](#nodejs)
+* [MongoDB](#mongodb)
 
 Tools:
 
 * IDE: Visual Studio Code
 * Cakebrew: GUI for Homebrew
 
-# NodeJS 
+## NodeJS 
 
 #### Installation
 ```
 brew install node
 ```
 
-# MongoDB
+## MongoDB
 
 #### GUI
 * Mongo Management Studio
