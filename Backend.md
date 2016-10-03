@@ -16,6 +16,12 @@ Tools:
 brew install node
 ```
 
+### Debugger
+
+```
+npm install -g node-inspector
+```
+
 ## MongoDB
 
 #### GUI
