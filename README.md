@@ -10,7 +10,6 @@ A list of resources and tips for programming efficiently, especially for Objecti
 * [ObjectiveC Code Style](ObjectiveC-CodeStyle.md)
 * [Cocoapods](Cocoapods.md)
 * [Clean Code](CleanCode.md)
-* [Fastlane](Fastlane.md)
 
 ## Backend
 
